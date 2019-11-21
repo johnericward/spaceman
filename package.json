@@ -1,13 +1,14 @@
 {
   "name": "setup-react",
   "version": "1.0.0",
+  "homepage": "http://johnericward.github.com/spaceman",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     
     "start:prod": "node server.js",
