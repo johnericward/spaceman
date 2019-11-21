@@ -1,0 +1,68 @@
+.tile{
+    display: inline-flex;
+    /* background-color: green; */
+    /* background-image: url("/client/public/tiles/floor.png"); */
+    
+}
+
+.grass {
+    background-color: green;
+}
+
+.crystal {
+    background-image: url("/tiles/crystal.png");
+    background-size: 40px;
+}
+
+.crate{
+    background-image: url("/tiles/crate2.png");
+    background-size: 40px;
+}
+
+.mapRow {
+    height: 40px;
+}
+
+.map{
+    background-image: url("/tiles/floor2.png");
+
+}
+
+.monster{
+    background-image: url("/tiles/monster2.gif");
+    background-size: 40px;
+}
+
+.title_img {
+    margin: auto;
+    background-image: url("/tiles/title_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+    
+}
+
+.title_img_holder {
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: -1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: none; */
+}
+
+.link {
+    /* z-index: 10; */
+    /* text-align: center; */
+    margin-left: 1400px;
+    margin-top: 5%;
+    padding-bottom: 500px;
+    color: red;
+    font-size: 35pt;
+    font-family:  sans;
+    font-weight: bold;
+    
+}

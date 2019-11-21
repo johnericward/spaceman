@@ -1,0 +1,99 @@
+.battleScreen{
+    height: 100px;
+    width: 300px;
+    z-index: 1;
+    
+}
+
+#battleScreen0 {
+    border-radius: 20px;
+    background-color: rgb(24, 26, 27);
+}
+
+.map {
+    margin: 3% 0;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+#saber {
+    background-color: rgb(88, 88, 88);
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 3px;
+    color: white;
+}
+#saberDiv {
+    /* background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px; */ 
+}
+#saberValueText {
+    margin: 10px 10px 5px 10px;
+    color: white;
+}
+#saberUsesText {
+    margin: 10px 10px 5px 10px;
+    color: white;
+}
+
+
+#blaster {
+    background-color: rgb(88, 88, 88);
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 3px;
+    color: white;
+}
+#blasterDiv {
+    /* background-color: black;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5); */
+}
+#blasterValueText {
+    margin: 10px 10px 5px 10px;
+    color: white;
+}
+#blasterUsesText {
+    margin: 10px 10px 5px 10px;
+    color: white;
+}
+
+
+#attackSpell {
+    background-color: rgb(88, 88, 88);
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 3px;
+    color: white;
+}
+#attackSpellDiv {
+    /* background-color: black;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5); */
+}
+#attackSpellValueText {
+    margin: 10px 10px 5px 10px;
+    color: white;
+}
+#attackSpellUsesText {
+    margin: 10px 10px 5px 10px;
+    color: white;
+}
+
+#healingSpell {
+    background-color: rgb(88, 88, 88);
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 3px;
+    color: white;
+}
+#healingSpellDiv {
+    /* background-color: black;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5); */
+}
+#healingSpellValueText {
+    margin: 10px 10px 5px 10px;
+    color: white;
+}
+#healingSpellUsesText {
+    margin: 10px 10px 5px 10px;
+    color: white;
+}
